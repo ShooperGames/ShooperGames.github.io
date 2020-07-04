@@ -1,0 +1,33 @@
+h6 {
+    text-align: center;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#topbar {
+    position: relative;
+    border: 5px solid blue;
+    height: 20%;
+}
+
+#mainSec {
+    position: relative;
+    height: 80%;
+}
+
+#sideBar {
+    border: 1px solid black;
+    height: 100%;
+    width: 20%;
+}
+
+#mainGame {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    height: 100%;
+    width: 80%;
+}

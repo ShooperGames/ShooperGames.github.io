@@ -120,7 +120,7 @@ function blackOutMaze() {
     ctx.fillRect((playerXLocation * 21), 0, 21, ((playerYLocation * 21) - (counter * 21)));
     counter = 0;
     notWall = true;
-    while (notWall && (counter < (21 - playerXLocation))) {
+    while (notWall && (counter < (19 - playerXLocation))) {
         if (vWalls[playerXLocation + counter][playerYLocation] === 1) {
             notWall = false;
         } else {
@@ -130,7 +130,7 @@ function blackOutMaze() {
     ctx.fillRect((playerXLocation * 21) + 21 + (counter * 21), (playerYLocation * 21), (420 - ((playerXLocation * 21) + 21 + (counter * 21))), 21);
     counter = 0;
     notWall = true;
-    while (notWall && (counter < (21 - playerYLocation))) {
+    while (notWall && (counter < (20 - playerYLocation))) {
         if (hWalls[playerXLocation][playerYLocation + counter] === 1) {
             notWall = false;
         } else {

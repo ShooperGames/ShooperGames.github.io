@@ -8,17 +8,19 @@ iframe {
 }
 
 #topbar {
+    background-color: lightblue;
     position: relative;
-    border: 5px solid blue;
-    height: 20%;
+    border: 3px solid blue;
+    height: 10%;
 }
 
 #mainSec {
     position: relative;
-    height: 70%;
+    height: 80%;
 }
 
 #sideBar {
+    background-image: linear-gradient(lightblue, blue);
     border: 1px solid black;
     height: 100%;
     width: 20%;
@@ -26,8 +28,8 @@ iframe {
 
 #mainGame {
     position: absolute;
-    top: 0;
-    left: 20%;
-    height: 100%;
-    width: 80%;
+    top: 3;
+    left: 21%;
+    height: 95%;
+    width: 78%;
 }

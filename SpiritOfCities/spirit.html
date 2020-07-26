@@ -1,15 +1,41 @@
 <!DOCTYPE html5>
 <head>
-    <script src="spirit.js"></script>
+    <script src="job.js"></script>
+    <script src="craft.js"></script>
+    <script src="research.js"></script>
+    <script src="supply.js"></script>
+    <script src="spiritGame.js"></script>
     <link rel="stylesheet" type="text/css" href="spirit.css">
 </head>
 <body style="background-color: darkgray;">
-    <div id="statBlock"></div>
+    <div id="statBlock">
+        <p style="text-align: center;">
+            <span id="pop" class="statSpan"><b>Population: </b>25</span>
+            <span id="hap" class="statSpan"><b>Happiness: </b>75</span>
+            <span id="land" class="statSpan"><b>Territory: </b>100</span>
+        </p>
+    </div>
     <div id="menu">
         <button class="menuBut">Overview</button>
         <button class="menuBut">Jobs</button>
         <button class="menuBut">Orders</button>
         <button class="menuBut">System</button>
     </div>
-    <div id="gameBlock"></div>
+    <div id="gameBlock">
+        <div id="jobs">
+            <ul>
+                <li>Hunters: 25</li>
+                <li>Gatherers: 0</li>
+                <li>Idlers: 0</li>
+            </ul>
+        </div>
+        <div id="supplies">
+            <ul>
+                <li>Food: 20</li>
+            </ul>
+        </div>
+        <div id="research"></div>
+        <div id="land"></div>
+    </div>
+    <script src="spiritDisplay.js"></script>
 </body>
